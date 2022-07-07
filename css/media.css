@@ -1,0 +1,602 @@
+@media (max-width: 992px) {
+
+  .nav__header {
+    padding-left: 0;
+  }
+
+
+  .courses__content {
+    min-height: 330px;
+  }
+
+  .advantage__item {
+    background-position: top left;
+  }
+
+  .advantage-item__desk {
+    width: 80%;
+    padding-left: 0;
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 710px;
+  }
+    
+  .nav__header {
+
+    padding-left: 30px;
+  }
+
+  
+  .hero__desk {
+    padding-right: 47px;
+  }
+
+
+  .hero__container {
+    background-image: url('../image/fon690.png');
+    background-position: calc(100% - 8px);
+  }
+
+  .hero__content {
+    padding-left: 10px;
+  }
+
+  .hero__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  .hero__desk {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+.hero__btn {
+    padding: 25px 82px;
+    max-width: 278px;
+}
+
+  .advantage {
+    padding-bottom: 56px;
+  }
+
+  .advantage__content {
+    padding-left: 239px;
+    margin-bottom: 25px;
+    background-image: url('../image/Vectary690.png');
+  }
+
+
+  .advantage__item {
+    flex-direction: column;
+  }
+
+  .advantage__img {
+    width: 80px;
+  }
+
+.advantage-item__desk{
+  padding-top: 91px;
+  padding-left: 0;
+  width: 100%;
+}
+
+.teachers {
+  padding-bottom: 27px;
+}
+
+.teachers__item {
+  margin-bottom: 15px;
+}
+
+.teachers__img {
+  width: 330px;
+}
+
+.teachers__content {
+  padding-top: 26px;
+}
+
+.teachers__desk {
+  width: 100%;
+}
+.courses {
+  padding-bottom: 51px;
+}
+
+.courses__content {
+  padding-top: 29px;
+  min-height: 375px;
+}
+
+
+.courses__desk {
+  width: 95%;
+}
+
+.courses__btn {
+  margin-left: 24px;
+}
+
+.footer__container {
+  max-width: 216px;
+}
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 525px;
+  }
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .nav-header__item {
+    justify-content: center!important;
+  }
+
+  .logo__header {
+    display: flex;
+    padding-bottom: 31px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .hero {
+    height: 567px;
+  }
+
+  .hero__container {
+    background-image: none;
+  }
+
+  .hero__content {
+    padding-top: 75px;
+  }
+  
+  .hero__text {
+    padding-top: 75px;
+  }
+
+  .hero__desk {
+    padding-right: 165px;
+  }
+
+  .hero__btn {
+    padding: 25px 82px;
+    max-width: 271px;
+}
+
+.advantage {
+  padding-bottom: 14px;
+}
+
+.advantage__content {
+  padding-left: 172px;
+  background-image: url('../image/Vectary\ texture.png');
+  background-size: 150px 134px;
+  background-position-y: calc(100% - 197px);
+  
+}
+
+.advantage__title {
+  margin-bottom: 19px;
+}
+
+.advantage__item {
+  max-width: 150px;
+}
+
+
+.advantage-item__desk {
+  width: 98%;
+}
+
+.courses__content {
+  padding-top: 33px;
+  min-height: 475px;
+}
+
+.courses__subtitle {
+  line-height: 130%;
+}
+
+
+.courses__btn {
+  padding: 21px 48px;
+}
+
+.footer__container {
+  max-width: 216px;
+}
+}
+
+@media (max-width: 472px) {
+   
+  .container {
+    max-width: 472px;
+  }
+  
+
+  .header {
+    padding: 0;
+     padding-top: 30px;
+  }
+
+  .logo__header {
+    margin-right: auto;
+    justify-content: flex-start;
+  }
+
+  .logo__header img {
+    width: 72px;
+  }
+
+  
+
+  .nav__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 432px;
+    padding-top: 76px;
+    z-index: 1000;
+    background-color: #2f2c45;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  
+  }
+
+  .nav--visible {
+    transform: none;
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .nav-header__list {
+    flex-direction: column;
+    padding-left: 8px;
+    align-items: flex-start;
+  }
+
+  .nav-header__item {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-header__item:not(:last-child) {
+    margin-bottom: 56px;
+  }
+
+  .nav-header__link {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+  .burger__header {
+    display: block;
+    margin-right: 10px;
+    z-index: 1001;
+   
+  }
+  
+
+
+.hero {
+  height: 355px;
+  padding-bottom: 50px;
+}
+
+.hero__content {
+  padding-top: 52px;
+  padding-left: 13px;
+}
+
+.hero__title {
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 100%;
+}
+.hero__desk {
+  width: 100%;
+  margin-bottom: 24px;
+  padding-right: 0;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.hero__btn {
+  padding: 20px 53px;
+  max-width: 213px;
+  font-size: 16px;
+}
+
+.advantage {
+  padding-bottom: 34px;
+}
+
+.advantage__content {
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-top: 50px;
+  background-image: none;
+}
+
+.advantage__title {
+    margin-bottom: 1px;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.advantage__deskr {
+  padding: 1px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.advantage__list {
+  flex-direction: column;
+}
+
+
+.advantage__item {
+  max-width: 100%;
+  min-height: 95px;
+  padding-top: 11px;
+  padding-bottom: 21px;
+  padding-left: 110px;
+  background-position: left center;
+}
+
+
+.advantage-item__desk {
+ padding: 0;
+}
+
+.teachers {
+  padding-top: 1px;
+  padding-bottom: 28px;
+}
+
+
+.teachers__title {
+  padding-top: 46px;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+
+
+.courses {
+  padding-top: 46px;
+  padding-bottom: 19px;
+}
+
+.courses__title {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.courses__content {
+  min-height: 476px;
+}
+
+.courses__subtitle {
+  margin-bottom: 8px;
+  padding-right: 50px;
+}
+
+.courses__btn {
+  padding: 21px 61px;
+}
+
+
+.footer__container {
+  max-width: 208px;
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 310px) {
+
+  .container {
+    max-width: 310px;
+  }
+  
+
+  .header {
+    padding: 0;
+     padding-top: 30px;
+  }
+
+  .logo__header {
+    margin-right: auto;
+    justify-content: flex-start;
+  }
+
+  .logo__header img {
+    width: 72px;
+  }
+
+  .nav__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 432px;
+    padding-top: 76px;
+    z-index: 1000;
+    background-color: #2f2c45;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  
+  }
+
+  .nav--visible {
+    transform: none;
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .nav-header__list {
+    flex-direction: column;
+    padding-left: 8px;
+    align-items: flex-start;
+  }
+
+  .nav-header__item {
+    width: 100%;
+  }
+
+  .nav-header__item:not(:last-child) {
+    margin-bottom: 56px;
+  }
+
+  .nav-header__link {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+  .burger__header {
+    margin-right: 10px;
+    z-index: 1001;
+   
+  }
+
+.hero {
+  height: 355px;
+  padding-bottom: 50px;
+}
+
+.hero__content {
+  padding-top: 52px;
+  padding-left: 13px;
+}
+
+.hero__title {
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 100%;
+}
+.hero__desk {
+  width: 100%;
+  margin-bottom: 24px;
+  padding-right: 0;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.hero__btn {
+  padding: 20px 53px;
+  max-width: 213px;
+  font-size: 16px;
+}
+
+.advantage {
+  padding-bottom: 34px;
+}
+
+.advantage__content {
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-top: 50px;
+  background-image: none;
+}
+
+.advantage__title {
+    margin-bottom: 1px;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.advantage__deskr {
+  padding: 1px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.advantage__list {
+  flex-direction: column;
+}
+
+.advantage__item {
+  max-width: 100%;
+  padding-top: 11px;
+  padding-bottom: 21px;
+  padding-left: 110px;
+  background-position: left center;
+}
+
+
+.advantage-item__desk {
+ padding: 0;
+}
+
+.teachers {
+  padding-top: 1px;
+  padding-bottom: 28px;
+}
+
+
+.teachers__title {
+  padding-top: 46px;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+
+
+.courses {
+  padding-top: 46px;
+  padding-bottom: 19px;
+}
+
+.courses__title {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.courses__content {
+  min-height: 476px;
+}
+
+.courses__subtitle {
+  margin-bottom: 8px;
+  padding-right: 50px;
+}
+
+.courses__btn {
+  padding: 21px 61px;
+}
+
+
+.footer__container {
+  max-width: 208px;
+}
+
+}
+
